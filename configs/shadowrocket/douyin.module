@@ -1,0 +1,19 @@
+#!name=抖音海外 IP 属地精确分流
+#!desc=关键接口代理，媒体优先直连；使用当前代理策略。
+
+[Rule]
+DOMAIN-SUFFIX,douyincdn.com,DIRECT
+DOMAIN-SUFFIX,douyinliving.com,DIRECT
+DOMAIN-SUFFIX,douyinvod.com,DIRECT
+DOMAIN-SUFFIX,douyinpic.com,DIRECT
+DOMAIN-SUFFIX,bytegecko.com,DIRECT
+DOMAIN-SUFFIX,byteeffecttos.com,DIRECT
+DOMAIN-SUFFIX,byteimg.com,DIRECT
+DOMAIN-SUFFIX,ecombdimg.com,DIRECT
+DOMAIN-SUFFIX,bytehwm.com,DIRECT
+DOMAIN-SUFFIX,bytecdn.com,DIRECT
+DOMAIN-SUFFIX,zjcdn.com,DIRECT
+DOMAIN-KEYWORD,awememusicpgc,DIRECT
+DOMAIN,v9-awememusicpgc.amemv.com,DIRECT
+DOMAIN-SUFFIX,snssdk.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,amemv.com,PROXY,force-remote-dns

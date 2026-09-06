@@ -1,0 +1,18 @@
+name: 抖音海外 IP 属地精确分流
+desc: 只前插规则；API 目标需替换成已有代理策略名。
+rules:
+- DOMAIN-SUFFIX,douyincdn.com,DIRECT
+- DOMAIN-SUFFIX,douyinliving.com,DIRECT
+- DOMAIN-SUFFIX,douyinvod.com,DIRECT
+- DOMAIN-SUFFIX,douyinpic.com,DIRECT
+- DOMAIN-SUFFIX,bytegecko.com,DIRECT
+- DOMAIN-SUFFIX,byteeffecttos.com,DIRECT
+- DOMAIN-SUFFIX,byteimg.com,DIRECT
+- DOMAIN-SUFFIX,ecombdimg.com,DIRECT
+- DOMAIN-SUFFIX,bytehwm.com,DIRECT
+- DOMAIN-SUFFIX,bytecdn.com,DIRECT
+- DOMAIN-SUFFIX,zjcdn.com,DIRECT
+- DOMAIN-KEYWORD,awememusicpgc,DIRECT
+- DOMAIN,v9-awememusicpgc.amemv.com,DIRECT
+- DOMAIN-SUFFIX,snssdk.com,Douyin-IP-Proxy
+- DOMAIN-SUFFIX,amemv.com,Douyin-IP-Proxy

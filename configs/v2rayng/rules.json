@@ -1,0 +1,31 @@
+[
+  {
+    "remarks": "Douyin-IP / 媒体直连",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:douyincdn.com",
+      "domain:douyinliving.com",
+      "domain:douyinvod.com",
+      "domain:douyinpic.com",
+      "domain:bytegecko.com",
+      "domain:byteeffecttos.com",
+      "domain:byteimg.com",
+      "domain:ecombdimg.com",
+      "domain:bytehwm.com",
+      "domain:bytecdn.com",
+      "domain:zjcdn.com",
+      "awememusicpgc",
+      "full:v9-awememusicpgc.amemv.com"
+    ],
+    "enabled": true
+  },
+  {
+    "remarks": "Douyin-IP / 属地 API",
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:snssdk.com",
+      "domain:amemv.com"
+    ],
+    "enabled": true
+  }
+]

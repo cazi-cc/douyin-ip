@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "as_of": "2026-09-06",
+  "long_term": {
+    "source": "维护者本人反馈，非逐日审计或对照试验",
+    "client": "Shadowrocket",
+    "duration": "约三个月",
+    "node_regions_used": ["香港", "新加坡", "日本", "台湾", "德国", "美国"],
+    "reported_result": "使用期间账号正常，未遇到异常登录、验证码困扰、属地回落或功能异常",
+    "limit": "不代表同一套最终规则在每个地区连续测试三个月，不代表适用于所有账号和节点"
+  },
+  "router_sample": {
+    "client": "PassWall2 / Xray",
+    "date": "2026-09-06",
+    "api_proxy_connections": 135,
+    "media_direct_connections": 270,
+    "api_hosts": 25,
+    "media_hosts": 98,
+    "zjcdn_direct_connections": 58,
+    "live_direct_connections": 24,
+    "music_exception_direct_connections": 5,
+    "user_feedback": "无明显卡顿，所查看的 IP 属地均为香港",
+    "limit": "连接数不是流量占比；不包含独立账号查验新发布内容的验收记录；未识别流量不能保证零泄漏"
+  }
+}

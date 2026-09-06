@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.module text eol=lf
+*.sgmodule text eol=lf
+*.plugin text eol=lf
+*.stoverride text eol=lf

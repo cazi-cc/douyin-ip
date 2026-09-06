@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "douyincdn.com",
+        "douyinliving.com",
+        "douyinvod.com",
+        "douyinpic.com",
+        "bytegecko.com",
+        "byteeffecttos.com",
+        "byteimg.com",
+        "ecombdimg.com",
+        "bytehwm.com",
+        "bytecdn.com",
+        "zjcdn.com"
+      ],
+      "domain_keyword": [
+        "awememusicpgc"
+      ],
+      "domain": [
+        "v9-awememusicpgc.amemv.com"
+      ]
+    }
+  ]
+}

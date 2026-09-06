@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "policy": "Douyin-IP-Proxy",
+  "files": {
+    "configs/loon/douyin.plugin": "3352d1e6f0ee794b55b31881adca62e2e2492f680827be77eaf514ed37221303",
+    "configs/mihomo/api.yaml": "35a3810c6220bd9168ccb5360d9cc795d0e83246ed12a47c9b91bb22b707f44e",
+    "configs/mihomo/clash-verge.js": "e5a479c84fbc80abecd56c06848ed77c82769c9a40458dbec6d1a73749dcb3cf",
+    "configs/mihomo/media.yaml": "9316cc5e4e2d5057d221f71a8d0ebaaa66f37871355c3f959d934bbd58c55621",
+    "configs/mihomo/merge-fragment.yaml": "2922718fbfac3efcda5bb95c943fb4a8d2ad7e97172ef63b116ad9aa2afb5125",
+    "configs/passwall2/api.domains": "39de0530512bdb64acc377a36ef6d5a6973c71152a7fb95fffa70f635fb6534e",
+    "configs/passwall2/media.domains": "2a03aa9215a37220e94ffad96444a5aff74e0c97382fe7c04744773f19f7b95d",
+    "configs/quantumult-x/api.list": "830734825c2ea538cc7e5602f4e9c861131772922765c4a309faab914b5ec661",
+    "configs/quantumult-x/local-rules.conf": "f565684aa151c216d5f536d4c5a067f9d0a86f40e526bccec5b0849feec863e5",
+    "configs/quantumult-x/media.list": "44b47c614c5f86207eacce57bbf7b05b9fc958160e48f8663e47bc7fb1e0d600",
+    "configs/shadowrocket/douyin.module": "62ca17a367775ecc37c7511ffaf9b52b3ad6217b4b998376377dd777d1929f60",
+    "configs/shadowrocket/rules.conf": "3b1626dede66d710fe364575247c72f0a6b7c747fa7f2a5fba04e02f20490445",
+    "configs/sing-box/api.json": "904c416b993148419ec7229447baefa5e5d80351eb5340107c475a597bc439e2",
+    "configs/sing-box/media.json": "3c36d59a75c7a95a895d5564ae94673f92225b261a79541e635a2b335162c613",
+    "configs/sing-box/route.fragment.json": "f33c61fd016b6db28ffe9bced0bfb930e77c11fbd6907e2b471a37fe2a3d680c",
+    "configs/stash/douyin.stoverride": "4d7247422b370771e11692ac6979d03a4e46862159b1dd2f171c3d0d4a6e4e7c",
+    "configs/surge/api-rules.conf": "06d4f8a6e8091139d3ecbea24387306c0bde83761862d16be6070ae9682624f8",
+    "configs/surge/api.list": "af5a7b3aa0f9ac46d3270f956856ade818edefdbe75c69094fdbdc27817b68d9",
+    "configs/surge/media.list": "d4420686e4cc409b8e03d2548e334e422e7c7c1ff10de9c853114593afa4e773",
+    "configs/surge/media.sgmodule": "eab5617084a9146a734cf0fdf7beb1fbcfc82672abc327fe9298df43554ffe32",
+    "configs/v2rayn/rules.json": "2761db9f562b5abc9a31b433eb1d5e9c272ea668559742288cb5e2d36cab3b79",
+    "configs/v2rayng/rules.json": "2761db9f562b5abc9a31b433eb1d5e9c272ea668559742288cb5e2d36cab3b79",
+    "configs/xray/routing.fragment.json": "d50998a379147f21232d0694f6350a3bd1d22b20bdb7cff2aff19375bc206c3b"
+  }
+}

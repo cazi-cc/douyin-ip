@@ -1,0 +1,57 @@
+{
+  "route": {
+    "rule_set": [
+      {
+        "type": "inline",
+        "tag": "douyin-ip-media",
+        "rules": [
+          {
+            "domain_suffix": [
+              "douyincdn.com",
+              "douyinliving.com",
+              "douyinvod.com",
+              "douyinpic.com",
+              "bytegecko.com",
+              "byteeffecttos.com",
+              "byteimg.com",
+              "ecombdimg.com",
+              "bytehwm.com",
+              "bytecdn.com",
+              "zjcdn.com"
+            ],
+            "domain_keyword": [
+              "awememusicpgc"
+            ],
+            "domain": [
+              "v9-awememusicpgc.amemv.com"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "inline",
+        "tag": "douyin-ip-api",
+        "rules": [
+          {
+            "domain_suffix": [
+              "snssdk.com",
+              "amemv.com"
+            ]
+          }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "rule_set": "douyin-ip-media",
+        "action": "route",
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "douyin-ip-api",
+        "action": "route",
+        "outbound": "proxy"
+      }
+    ]
+  }
+}

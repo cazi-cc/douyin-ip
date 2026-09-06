@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.private/
+local/
+.DS_Store
+Thumbs.db
+*.zip
+*.tgz
+*.pcap
+*.log
