@@ -15,7 +15,7 @@
 
 最近一次 PassWall2 实测：**135 次 API 代理、270 次媒体直连**，手机反馈无明显卡顿，查看到的属地均为香港。数字是连接记录数，不是流量占比。
 
-[下载 v0.1.0](https://github.com/cazi-cc/douyin-ip/releases/tag/v0.1.0) · [小白上手](docs/beginner.md)
+[下载 v0.1.1](https://github.com/cazi-cc/douyin-ip/releases/tag/v0.1.1) · [小白上手](docs/beginner.md)
 
 ## 选你的软件
 
@@ -26,6 +26,7 @@
 | Surge | 媒体模块 + API 代理规则 | [安装](docs/clients/surge.md) |
 | Quantumult X | 远程规则资源 / 本地规则 | [安装](docs/clients/quantumult-x.md) |
 | Stash | 覆写文件 | [安装](docs/clients/stash.md) |
+| Clash Mi | JavaScript 自定义覆写，保留原规则 | [安装](docs/clients/clash-mi.md) |
 | Clash Meta for Android / FlClash / Clash Verge Rev | Mihomo 规则集，按客户端合并 | [安装](docs/clients/mihomo.md) |
 | v2rayNG / v2rayN | 路由规则，保留原列表后添加 | [安装](docs/clients/v2ray.md) |
 | sing-box | 原生规则集 + 增量路由 | [安装](docs/clients/sing-box.md) |

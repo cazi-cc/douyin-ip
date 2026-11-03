@@ -33,7 +33,7 @@ python tools/build.py --policy "已有代理组名称" --output local/personal
 ## 本地交付包
 
 ```sh
-python tools/package.py ../douyin-ip-local-0.1.0.zip
+python tools/package.py ../douyin-ip-local-0.1.1.zip
 ```
 
 工具只打包明确允许的源码、配置和文档，并生成独立文件哈希清单；忽略 `local/`、私有目录、Python 缓存和 Git 元数据，拒绝符号链接及未知文件类型。不会调用 Git 或上传服务，也不会覆盖已有 ZIP。打包前仍需执行内容扫描和测试，允许的文本类型不能自动证明其中没有私人数据。
@@ -50,7 +50,7 @@ Windows 对应 `.exe` 路径。工具使用临时目录和纯回环的合成配�
 
 ## GitHub 发布边界
 
-公开仓库为 [cazi-cc/douyin-ip](https://github.com/cazi-cc/douyin-ip)。客户端教程的 Raw 链接固定到 `v0.1.0`，避免主分支更新自动影响已有配置；升级时先阅读更新记录，再主动切换版本。在线资源可下载不等于客户端已完成真机验收，实测范围见[验证记录](validation.md)。
+公开仓库为 [cazi-cc/douyin-ip](https://github.com/cazi-cc/douyin-ip)。客户端教程的 Raw 链接固定到已发布标签：原客户端保留 `v0.1.0`，新增 Clash Mi 文件从 `v0.1.1` 提供；两版的域名与分流顺序相同。避免主分支更新自动影响已有配置，升级时先阅读更新记录，再主动切换版本。在线资源可下载不等于客户端已完成真机验收，实测范围见[验证记录](validation.md)。
 
 `.github/workflows/check.yml` 仅在将来推送后执行本地构建/测试，不包含发布、部署、自动创建 Release 或上传私人文件的步骤。
 

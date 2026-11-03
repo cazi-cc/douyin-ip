@@ -4,6 +4,8 @@
 
 目标是支持 `type: inline`、`behavior: classical` 的较新 Mihomo 核心；旧版 Clash 不在此适配范围。
 
+**Clash Mi 用户请使用[专用教程](clash-mi.md)和 [clash-mi.js](../../configs/mihomo/clash-mi.js)。** 它支持 JavaScript 自定义覆写，绑定配置与后续 App 覆写的入口不同于 Clash Verge Rev。
+
 ## Clash Verge Rev：优先扩展脚本
 
 1. 复制 `clash-verge.js`，把顶部 `TARGET` 改成原配置中已存在的代理节点或策略组名。

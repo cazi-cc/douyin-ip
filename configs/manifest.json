@@ -1,9 +1,10 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "policy": "Douyin-IP-Proxy",
   "files": {
     "configs/loon/douyin.plugin": "3352d1e6f0ee794b55b31881adca62e2e2492f680827be77eaf514ed37221303",
     "configs/mihomo/api.yaml": "35a3810c6220bd9168ccb5360d9cc795d0e83246ed12a47c9b91bb22b707f44e",
+    "configs/mihomo/clash-mi.js": "874391069751d205f2d765d34b131013e255e7ea3148831b41ff64b72a405ff0",
     "configs/mihomo/clash-verge.js": "e5a479c84fbc80abecd56c06848ed77c82769c9a40458dbec6d1a73749dcb3cf",
     "configs/mihomo/media.yaml": "9316cc5e4e2d5057d221f71a8d0ebaaa66f37871355c3f959d934bbd58c55621",
     "configs/mihomo/merge-fragment.yaml": "2922718fbfac3efcda5bb95c943fb4a8d2ad7e97172ef63b116ad9aa2afb5125",

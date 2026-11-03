@@ -100,6 +100,8 @@ def render(data, policy=DEFAULT_POLICY):
     y('mihomo/merge-fragment.yaml', mihomo)
     js = (ROOT / 'tools/templates/mihomo.js').read_text(encoding='utf-8')
     text('mihomo/clash-verge.js', js.replace('__POLICY__', json.dumps(policy, ensure_ascii=False)).replace('__PATCH__', json.dumps(mihomo, ensure_ascii=False, indent=2)))
+    clash_mi = js.replace('此脚本供 Clash Verge Rev 的配置扩展使用。', '此脚本供 Clash Mi 的 JavaScript 自定义覆写使用。')
+    text('mihomo/clash-mi.js', clash_mi.replace('__POLICY__', json.dumps(policy, ensure_ascii=False)).replace('__PATCH__', json.dumps(mihomo, ensure_ascii=False, indent=2)))
     for name in ('v2rayng', 'v2rayn'):
         j(f'{name}/rules.json', native_rules(data))
     j('xray/routing.fragment.json', {'routing': {'rules': [
